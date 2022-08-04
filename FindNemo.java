@@ -1,5 +1,6 @@
 class FindNemo {
   public static void findingNemo(String[] nemo){
+    long startTime = System.nanoTime();
     for(int i=0;i<nemo.length;i++){
       if(nemo[i]=="nemo"){
         System.out.println("Found Nemo!!");
