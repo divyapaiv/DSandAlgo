@@ -6,6 +6,8 @@ class FindNemo {
         System.out.println("Found Nemo!!");
       }
     }
+    long stopTime = System.nanoTime();
+    System.out.println(stopTime - startTime);
   }
   public static void main(String[] args) {
     String nemo[]= new String[10];
